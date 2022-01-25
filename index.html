@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>HotAirBalloon</title>
+    <!-- Lib -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+
+    <script src="p5.play.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+
+    <script>
+      var firebaseConfig = {
+  apiKey: "AIzaSyDCz5JVO9TP3Woj0Ec9TJhTQK5DHUWkGio",
+  authDomain: "airride-1d5d3.firebaseapp.com",
+  databaseURL: "https://airride-1d5d3-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "airride-1d5d3",
+  storageBucket: "airride-1d5d3.appspot.com",
+  messagingSenderId: "248573198582",
+  appId: "1:248573198582:web:f6207ae6d66f711ad5ecd7"
+};
+
+
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+  </head>
+  <body>
+    
+    <script src="./sketch.js"></script>
+  </body>
+</html>
